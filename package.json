@@ -1,7 +1,7 @@
 {
   "name": "gitbook-plugin-insert-header",
   "version": "1.0.0",
-  "description": "GitBook plugin: Insert logo ===========================",
+  "description": "GitBook plugin: Insert header ===========================",
   "main": "index.js",
   "directories": {
     "lib": "lib"
