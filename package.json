@@ -1,7 +1,7 @@
 {
   "description": "GitBook Plugin to header into the navigation bar",
   "name": "gitbook-plugin-insert-header",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "gitbook",
     "plugin",
