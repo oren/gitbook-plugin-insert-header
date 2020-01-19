@@ -1,22 +1,38 @@
 {
+  "description": "GitBook Plugin to header into the navigation bar",
   "name": "gitbook-plugin-insert-header",
-  "version": "1.0.0",
-  "description": "GitBook plugin: Insert header ===========================",
+  "version": "0.0.1",
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "insert-header",
+    "github"
+  ],
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
+  "author": {
+    "name": "Oren Golan",
+    "email": "orengolan@gmail.com"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "readme": "GitBook Plugin to header into the navigation bar",
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+    "properties": {
+      "url": {
+        "type": "string",
+        "default": "http://www.example.com/my-logo.png",
+        "title": "Logo URL"
+      },
+      "style": {
+        "type": "string",
+        "default": "background: none;",
+        "title": "Custom CSS"
+      }
+    }
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oren/gitbook-plugin-insert-header.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/oren/gitbook-plugin-insert-header/issues"
-  },
-  "homepage": "https://github.com/oren/gitbook-plugin-insert-header#readme"
+  }
 }
